@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Not Complete</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #357aff;
+            flex-direction: column;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            max-width: 400px;
+            width: 80%;
+            background-color: #FFFFFF;
+            margin-top: 20px; /* Add margin between image and card */
+        }
+        img {
+            height: 40px;
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 20px;
+            color: #404040;
+        }
+        p {
+            font-size: 14px;
+            color: #808080;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            text-decoration: underline;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media query for mobile devices */
+        @media (max-width: 480px) {
+            .card {
+                padding: 10px; /* Add padding for smaller screens */
+                margin-top: 10px; /* Adjust margin */
+            }
+            img {
+                height: 30px; /* Adjust image height */
+                margin-bottom: 20px; /* Adjust margin */
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="https://freeimage.host/"><img src="https://gcdnb.pbrd.co/images/4Td69afKOI31.png" alt="J7Okrwx.png" border="0" /></a>
+    <div class="card">
+        <h1>Payment Not Complete</h1>
+        <p>Your payment is not finished. Please check your email for the transaction URL and complete your transaction.</p>
+        <p>If you can't find the email or have any questions, <a href="mailto:support@example.com">contact us</a>.</p>
+    </div>
+</body>
+</html>
